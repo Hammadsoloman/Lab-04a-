@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+
+html {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19pt;
+  font-weight: 300;
+  line-height: 1.75em;
+      color: #888;
+      text-align: center;
+  }
+  div{
+      border: 2px solid #000000;
+      animation: rubberBand 3s ;
+  }
