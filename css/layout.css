@@ -1,0 +1,184 @@
+
+	
+@media only screen and (min-width: 769px) {
+  body{
+  width: 940;
+}
+
+
+
+main{
+width: 100%;
+height: 100vh;
+}
+
+.container {  
+display: grid;  
+grid-template-columns: repeat(5, 190px);  
+grid-template-rows: repeat(14,50px);
+
+grid-template-areas:  
+  "a a a a a"  
+  "a a a a a"  
+  "b c c d d"
+  "b c c d d"
+  "b c c d d"
+  "b c c d d"  
+  "b e f g h"
+  "b e f g h"
+  "b e f g h"  
+  "b e f g h"  
+  "b e f g h"  
+  "b i i i i"
+  "b i i i i"
+
+  ;
+
+}
+
+
+.a {  
+  grid-area: a;  
+}
+
+.b {  
+  grid-area: b;  
+}
+
+.c {  
+  grid-area: c; 
+}
+
+.d {  
+ grid-area: d;  
+}
+
+.e {  
+  grid-area: e;  
+}
+
+.f {  
+  grid-area: f;  
+}
+
+.g {  
+  grid-area: g;  
+}
+
+.h {  
+  grid-area: h;  
+}
+
+.i {  
+  grid-area: i;  
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+  body{
+  width: 480px;
+}
+
+
+
+
+.container {  
+display: grid;  
+grid-template-columns: repeat(2, 240px);  
+grid-template-rows: repeat(14,75px);
+grid-template-areas:  
+  "a a "  
+  "b b "  
+  "b b"
+  "c c"
+  "c c"
+  "d d"  
+  "d d"
+  "e f"
+  "e f"  
+  "e f"  
+  "g h"  
+  "g h"
+  "g h"
+  "i i"
+  ;
+}
+
+
+.a {  
+  grid-area: a;  
+}
+
+.b {  
+  grid-area: b;  
+}
+
+.c {  
+  grid-area: c; 
+}
+
+.d {  
+ grid-area: d;  
+}
+
+.e {  
+  grid-area: e;  
+}
+
+.f {  
+  grid-area: f;  
+}
+
+.g {  
+  grid-area: g;  
+}
+
+.h {  
+  grid-area: h;  
+}
+
+.i {  
+  grid-area: i;  
+}
+}
+
+
+@keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
